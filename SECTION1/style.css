@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in element width and height */
+    font-family: 'Arial', sans-serif;
+    background-color:  lightgoldenrodyellow;
+}
+
+body {
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Banner image styling */
+.banner img {
+    width: 80%; /* Dynamic width for better responsiveness */
+    max-width: 700px;
+    display: block;
+    margin: 20px auto; /* Adds top and bottom spacing */
+    border: 5px solid #a0522d; /* Updated border color to match theme */
+    border-radius: 10px; /* Softened corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Heading styling */
+h1 {
+    color: #8b0000; /* Dark red for better readability */
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem; /* Larger, modern font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds subtle text shadow */
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    margin: 10px 20px;
+    color: #333; /* Neutral text color */
+    font-size: 1.2rem; /* Slightly larger for easier reading */
+}
+
+/* Navigation bar styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #f4a460; /* Warm theme color for the nav bar */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #8b4513; 
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: transparent; 
+    transition: all 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color: lightyellow;
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Horizontal line styling */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #d3d3d3; /* Soft gray for subtle separation */
+    margin: 30px 0;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    banner img {
+        width: 90%;
+    }
+}

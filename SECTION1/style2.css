@@ -1,0 +1,124 @@
+/* Universal reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main heading styling */
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #8b0000; /* Dark red */
+    margin: 20px 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #ffebcd; /* Light background for header */
+    border-radius: 8px;
+}
+
+/* Styling for the food image */
+.food {
+    float: right;
+    width: 400px;
+    margin: 20px 20px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #ddd; /* Light border */
+}
+
+/* Centering the image container */
+.image_container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Wrapper for menu sections */
+.menu-section {
+    background-color: #fdf5e6; /* Light cream background */
+    border: 2px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds soft shadow */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Restricts width for clean layout */
+    margin-left: 80px; /* Moves the box slightly to the right */
+    position: relative;
+}
+
+/* Section headers inside the box */
+.menu-section h2 {
+    color: #8b0000; /* Dark red */
+    margin-bottom: 10px;
+    text-align: center; /* Center-aligned headings */
+    font-size: 1.8rem;
+}
+
+/* Styling for lists inside the box */
+.menu-section ul {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 40px; /* Space for bullets */
+    margin: 15px 0; /* Space between lists */
+}
+
+/* Styling for individual list items */
+.menu-section ul li {
+    margin: 5px 0; /* Adds spacing between items */
+    color: #444; /* Softer dark gray */
+    font-size: 1.2rem;
+}
+
+/* Paragraph styling below the menu */
+.menu-section p {
+    text-align: center;
+    margin-top: 20px;
+    color: #006400; /* Dark green */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Highlighting specific text */
+.fresh {
+    font-weight: bold;
+    color: #006400; /* Dark green for emphasis */
+}
+
+/* Footer styling */
+footer {
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    padding: 20px;
+    border: 2px solid #006400;
+    background-color: #006400; /* Dark green */
+    color: white;
+}
+
+/* Back to home button in footer */
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #228b22; /* Lighter green for button */
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for the button */
+footer a:hover {
+    background-color: #8b0000; /* Dark red on hover */
+    color: white;
+    transform: scale(1.1); /* Slight zoom */
+}
+
+/* Styling for horizontal rule */
+hr {
+    border: 1px solid #ddd; /* Subtle gray line */
+    margin: 20px 0;
+}
